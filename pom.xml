@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <properties>
-    <vertx.version>3.4.1</vertx.version>
+    <vertx.version>3.4.2</vertx.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <main.verticle>org.typeunsafe.Hello</main.verticle>
   </properties>
@@ -90,9 +90,9 @@
     </dependency>
 
     <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-service-discovery-backend-redis</artifactId>
-      <version>${vertx.version}</version>
+      <groupId>org.typeunsafe</groupId>
+      <artifactId>vertx-service-discovery-backend-http</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>
